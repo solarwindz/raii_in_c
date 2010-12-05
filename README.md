@@ -3,7 +3,7 @@ If you have ever programmed in C++, then you have probably come to love the styl
 
 RAII programming is "natively supported" in only a few programming languages. But, for C++ programmers who need to program in C, it is one of the features that are most missed.
 
-This project is provides an *ad hoc* solution to RAII-style programming in C.
+This project provides an *ad hoc* solution to RAII-style programming in C.
 
 ## Implementation details
 The present implementation of raii_in_c is a single header file containing macros. These macros utilize GCC extensions to the C language, so the solution is specific to `gcc` and compilers that support the following extensions:
